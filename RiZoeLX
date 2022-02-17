@@ -40,7 +40,7 @@ _set_bot () {
     echo "  Starting.  RiZoeLXSpam "
     echo "𝙍𝙞𝙕𝙤𝙚𝙇 𝙓 𝙎𝙥𝙖𝙢"
 
-    python3 ./setup/updater.py ./requirements.txt requirements.txt
+    python3 ../setup/updater.py ../requirements.txt requirements.txt
     python3 -m RiZoeLXSpam
 }
 
